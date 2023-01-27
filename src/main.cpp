@@ -9,7 +9,7 @@ const char* ssid = "Basri";
 const char* password = "123456789";
 IPAddress broadcastIP(192, 168, 232, 255); // Your network's broadcast IP
 WiFiUDP udp;
-unsigned int localPort = 5763; // dinleme portu
+unsigned int localPort = 5763; // dinleme por
 
 void setup() {
   Serial.begin(115200);
