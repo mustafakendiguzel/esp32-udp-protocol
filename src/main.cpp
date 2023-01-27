@@ -25,8 +25,6 @@ void setup() {
   Serial.println(WiFi.localIP());
   Serial.print("Udp Remote IP: ");
   Serial.println(udp.remoteIP());
-  Serial.print("Udp: ");
-  Serial.println(udp.remotePort());
 
 }
 
